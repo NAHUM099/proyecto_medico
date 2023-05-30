@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO PERSONA</title>
+    <link rel="stylesheet" href="styledoc.css">
+    <link rel="icon" type="image/png" href="/JAVASCRIPT/img/1683683582010.png" />
+</head>
+<body>
+        <header>
+            <img width="100px" height="100px" src="/JAVASCRIPT/img/1683683582010.png" >
+            <h1>CENTRO MEDICO NEMC</h1>
+        </header>
+        
+    <main>
+        <h2>REGISTRO PERSONA</h2>
+        <form id="registroPersona">
+            <label for="persona">nombre:</label>
+            <br>
+            <input type="text" id="persona" name="persona" placeholder="ingrese su nombre" required>
+            <br>
+            <label for="apellido">apellido:</label>
+            <br>
+            <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido"required>
+            <br>
+            <label for="cedulapac">numero de cedula:</label>
+            <br>
+            <input type="number" id="cedulapac" name="cedulpac" placeholder="ingrese su cedula"required>
+            <br>
+            <label for="edadPaciente">edad:</label>
+            <br>
+            <input type="number" id="edadPaciente" name = "edadPaciente" placeholder="ingrese su edad"required>
+            <br>
+            <label for="telefono">Telefono:</label>
+            <br>
+            <input type="number" id="telefono" name="telefono" placeholder="ingrese su telefono" required>
+            <label for="especialidadPaciente">especialidad requerida:</label>
+            <br>
+            <select id="especialidadPaciente" name="especialidadPaciente">
+                <option value="especialidadPaciente">seleccione la especialidad</option>
+                <option value="Odontología">odontologia</option>
+                <option value="medicinaGeneral"> medicina general</option>
+                <option value="neuroligia">neuroliga</option>
+                <option value="dermatologia">dermatologia</option>
+                <option value="cardiologia">cardiologia</option>
+                <option value="urologia">urologia</option>
+            </select>
+        <input type="submit" value="Enviar">
+        </form>
+        <div class="boton-container">
+            <input type="button" id="botonVolver" value="Volver">
+        </div>
+    </main>
+
+    <script src="botonvolver.js"></script>
+    <script src="registro-pacientes.js"></script>
+    
+    <footer>
+        <hr>
+        <h4 id="contacto">CONTACTO</h4>
+        <table>
+            <tr>
+            <th>telefono:</th>
+            <td>3024190219</td>
+            </tr>
+            <tr>
+            <th>redes:</th>
+            <td>
+                <a href="https://web.facebook.com/nahumskate.candela" target="_blank"><img src="/JAVASCRIPT/img/icons8-facebook-50.png" alt="link a facebook"></a><a href="https://www.instagram.com/nahumesteban/" target="_blank"><img src="/JAVASCRIPT/img/icons8-instagram-50.png" alt="link a instagram"></a></td>
+            </tr>
+        </table>
+    </tr>
+    </table>
+    <hr>
+    <a class="afin" href="">terminos del sitio web</a>
+    <a class="afin" href="">politica editorial</a>
+    <a class="afin" href="">politica de privacidad</a>
+    <a class="afin" href="">imormacion legar</a>
+    <a class="afin" href="">mapa del sitio</a>
+    </footer>
+</body>
+</html>

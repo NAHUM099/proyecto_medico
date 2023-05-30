@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DOCTOR</title>
+    <link rel="stylesheet" href="styledoc.css">
+    <link rel="icon" type="image/png" href="/JAVASCRIPT/img/1683683582010.png" />
+</head>
+<body> 
+    <header>
+        <img width="100px" height="100px" src="/JAVASCRIPT/img/1683683582010.png" >
+        <h1> CENTRO MEDICO NEMC</h1>
+    </header>
+    
+<main>
+    <h2>REGISTRO DOCTOR</h2>
+    <form id="registro-medicos-form">
+        <label for="nombre">nombre:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre" required>
+        <br>
+        <label for="apellido">apellido:</label>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="ingrese su apellido"required>
+        <br>
+        <label for="ceduladoc">numero de cedula:</label>
+        <br>
+        <input type="number" id="ceduladoc" name="ceduladoc" placeholder="ingrese su cedula"required>
+        <br>
+        <label for="especialidadDoc">especialidad:</label>
+        <br>
+        <select id="especialidadDoc" name="especialidadDoc">
+            <option value="especialidadDoc">seleccione la especialidad</option>
+            <option value="Odontología">odontologia</option>
+            <option value="medicinaGeneral"> medicina general</option>
+            <option value="neuroligia">neuroliga</option>
+            <option value="dermatologia">dermatologia</option>
+            <option value="cardiologia">cardiologia</option>
+            <option value="urologia">urologia</option>
+        </select>
+        <br>
+        <label for="consultorio">consultorio:</label>
+        <br>
+        <input type="number" id="consultorio" placeholder="numero de consultorio" required>
+        <br>
+        <label for="correo">correo:</label>
+        <br>
+        <input type="email" id="correo" placeholder="ingrese su correo" onpaste="return false" required>
+        <br>
+    <input type="submit" value="Enviar">
+        </form>
+        <div class="boton-container">
+            <input type="button" id="botonVolver" value="Volver">
+        </div>
+</main>
+
+<script src="botonvolver.js"></script>
+<script src="registro-medicos.js"></script>
+<footer>
+    <hr>
+    <h4 id="contacto">CONTACTO</h4>
+    <table>
+        <tr>
+        <th>telefono:</th>
+        <td>3024190219</td>
+        </tr>
+        <tr>
+        <th>redes:</th>
+        <td>
+            <a href="https://web.facebook.com/nahumskate.candela" target="_blank"><img src="/JAVASCRIPT/img/icons8-facebook-50.png" alt="link a facebook"></a><a href="https://www.instagram.com/nahumesteban/" target="_blank"><img src="/JAVASCRIPT/img/icons8-instagram-50.png" alt="link a instagram"></a></td>
+        </tr>
+    </table>
+</tr>
+</table>
+<hr>
+<a class="afin" href="">terminos del sitio web</a>
+<a class="afin" href="">politica editorial</a>
+<a class="afin" href="">politica de privacidad</a>
+<a class="afin" href="">imormacion legar</a>
+<a class="afin" href="">mapa del sitio</a>
+</footer>
+</body>
+</html>

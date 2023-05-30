@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("/JAVASCRIPT/img/MEDICINA.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color: #03262e;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    color:whitesmoke;
+    font-size: 40px;
+}
+
+h2{
+    color:#f2f6f7;
+    font-size: 30px;
+}
+header{
+    background-color: rgba(47, 195, 224, 0.457);
+    text-align: center;
+}
+main {
+    max-width: 500px;
+    margin: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif
+}
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 5px solid #0410f8;
+    background-color: #1909fc7f;
+
+
+}
+td {
+    color: #f2f6f7;
+}
+th {
+    background-color: #0cf5e9;
+    font-weight: bold;
+}
+.tabla-container {
+    max-width: 80%;
+}
+.boton-container {
+    margin-block: 30px;
+}
+.listado-servicios a {
+    text-decoration: none;
+    color: #1909fc7f;
+    font-size: 30px;
+}
+.listado-servicios li::marker {
+    content: 🐾;
+}
+input[type="submit"],
+input[type="button"] {
+    background-color: #070aa3;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 12px 100px;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+}
+input[type="button"]:hover{ 
+    background-color: #0cf5e9;
+    color:
+}
+
